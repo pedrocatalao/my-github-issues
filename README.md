@@ -41,7 +41,7 @@ Collect all assigned issues:
 
 **Filter by Organization:**
 ```bash
-./run.sh --org dovetailworld
+./run.sh --org myorg
 ```
 
 **Filter by Project and Status:**
@@ -60,7 +60,7 @@ Collect all assigned issues:
 
 **Combine Filters:**
 ```bash
-./run.sh --org dovetailworld --project DevOps --status "In Progress" --is-archived false
+./run.sh --org myorg --project DevOps --status "in progress" --is-archived false
 ```
 
 ## Output Format
@@ -71,12 +71,12 @@ Collect all assigned issues:
     "issue_name": "Simplify deployment actions",
     "number": 301,
     "status": "CLOSED",
-    "org": "dovetailworld",
+    "org": "myorg",
     "repo": "devops",
     "projects": [
       {
         "project_name": "DevOps",
-        "status": "Sprint finished",
+        "status": "In Progress",
         "is_archived": false
       }
     ]
