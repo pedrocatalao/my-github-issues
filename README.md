@@ -46,7 +46,7 @@ Collect all assigned issues:
 
 **Filter by Project and Status:**
 ```bash
-./run.sh --project DevOps --status "Sprint finished"
+./run.sh --project DevOps --status "done"
 ```
 
 **Filter by Archived Status:**
